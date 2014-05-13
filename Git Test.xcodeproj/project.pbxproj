@@ -21,6 +21,7 @@
 		65FEA2F019225C800070A5C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FEA2D219225C800070A5C3 /* UIKit.framework */; };
 		65FEA2F819225C800070A5C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65FEA2F619225C800070A5C3 /* InfoPlist.strings */; };
 		65FEA2FA19225C800070A5C3 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FEA2F919225C800070A5C3 /* Git_TestTests.m */; };
+		65FEA30519225FF00070A5C3 /* iDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FEA30419225FF00070A5C3 /* iDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		65FEA2F519225C800070A5C3 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		65FEA2F719225C800070A5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65FEA2F919225C800070A5C3 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		65FEA30319225FF00070A5C3 /* iDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDTest.h; sourceTree = "<group>"; };
+		65FEA30419225FF00070A5C3 /* iDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				65FEA2E019225C800070A5C3 /* Main.storyboard */,
 				65FEA2E319225C800070A5C3 /* iDViewController.h */,
 				65FEA2E419225C800070A5C3 /* iDViewController.m */,
+				65FEA30319225FF00070A5C3 /* iDTest.h */,
+				65FEA30419225FF00070A5C3 /* iDTest.m */,
 				65FEA2E619225C800070A5C3 /* Images.xcassets */,
 				65FEA2D519225C800070A5C3 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FEA30519225FF00070A5C3 /* iDTest.m in Sources */,
 				65FEA2DB19225C800070A5C3 /* main.m in Sources */,
 				65FEA2DF19225C800070A5C3 /* iDAppDelegate.m in Sources */,
 				65FEA2E519225C800070A5C3 /* iDViewController.m in Sources */,
